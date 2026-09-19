@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudyMate AI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <header>
+        <p class="tag">SMART LEARNING PLATFORM</p>
+        <h1>StudyMate <span>AI</span></h1>
+        <p class="subtitle">
+          Upload your study notes, ask questions, and generate revision
+          material.
+        </p>
+      </header>
+
+      <section class="card">
+        <h2>1. Upload Study Notes</h2>
+        <p>Choose a PDF or text file.</p>
+        <input id="fileInput" type="file" accept=".pdf,.txt" />
+        <button id="uploadButton">Upload Notes</button>
+        <p id="uploadMessage"></p>
+      </section>
+
+      <section class="card">
+        <h2>2. Ask a Question</h2>
+        <input
+          id="questionInput"
+          type="text"
+          placeholder="Example: Explain photosynthesis simply"
+        />
+        <button id="askButton">Ask StudyMate</button>
+      </section>
+
+      <section class="card">
+        <h2>3. Revision Material</h2>
+        <p>Generate a summary, key points, and quiz from your notes.</p>
+        <button id="reviseButton">Generate Revision</button>
+      </section>
+
+      <section class="card">
+        <h2>AI Answer</h2>
+        <p id="answer" class="answer">
+          Upload notes and ask a question to begin.
+        </p>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

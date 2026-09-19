@@ -1,0 +1,17 @@
+{
+  "name": "studymate-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Upload study notes, ask questions, and generate revision material.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.0",
+    "express": "^5.2.1",
+    "multer": "^2.4.0",
+    "openai": "^7.18.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
